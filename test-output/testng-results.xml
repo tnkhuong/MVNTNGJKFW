@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24171" started-at="2020-03-11T01:23:43 ICT" finished-at="2020-03-11T01:24:07 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24171" started-at="2020-03-11T01:23:43 ICT" finished-at="2020-03-11T01:24:07 ICT">
+      <class name="Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="beforeTest" is-config="true" duration-ms="10" started-at="2020-03-11T01:23:43 ICT" finished-at="2020-03-11T01:23:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="f" duration-ms="23391" started-at="2020-03-11T01:23:43 ICT" finished-at="2020-03-11T01:24:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="afterTest" is-config="true" duration-ms="727" started-at="2020-03-11T01:24:07 ICT" finished-at="2020-03-11T01:24:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
