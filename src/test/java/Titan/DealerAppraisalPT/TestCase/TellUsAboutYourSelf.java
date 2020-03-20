@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
+import Titan.DealerAppraisalPT.config.GlobalVariables;
 import Titan.DealerAppraisalPT.config.Init;
 import Titan.DealerAppraisalPT.pageObjectModel.TellUsAboutYourSelfPage;
 
@@ -15,7 +16,7 @@ public class TellUsAboutYourSelf extends Init{
   @Test
   public void f() throws Exception {
 	  
-	  WebDriver driver = Init.setup("firefox");
+	  WebDriver driver = Init.setup(GlobalVariables.glb_Browser);
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	  
 	  driver.get("https://www.utest.com/signup/personal");
 	  driver.manage().window().maximize();
