@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19550" started-at="2020-03-21T01:48:04 ICT" finished-at="2020-03-21T01:48:24 ICT">
+  <suite name="Default suite" duration-ms="24868" started-at="2020-03-21T02:07:10 ICT" finished-at="2020-03-21T02:07:35 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19550" started-at="2020-03-21T01:48:04 ICT" finished-at="2020-03-21T01:48:24 ICT">
+    <test name="Default test" duration-ms="24868" started-at="2020-03-21T02:07:10 ICT" finished-at="2020-03-21T02:07:35 ICT">
       <class name="Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="beforeTest" is-config="true" duration-ms="13" started-at="2020-03-21T01:48:04 ICT" finished-at="2020-03-21T01:48:04 ICT">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="beforeTest" is-config="true" duration-ms="20355" started-at="2020-03-21T02:07:10 ICT" finished-at="2020-03-21T02:07:30 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="f" duration-ms="19489" started-at="2020-03-21T01:48:04 ICT" finished-at="2020-03-21T01:48:24 ICT">
+        <test-method status="PASS" signature="f()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="f" duration-ms="4467" started-at="2020-03-21T02:07:30 ICT" finished-at="2020-03-21T02:07:35 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-03-21T01:48:24 ICT" finished-at="2020-03-21T01:48:24 ICT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Titan.DealerAppraisalPT.TestCase.TellUsAboutYourSelf@7c29daf3]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-03-21T02:07:35 ICT" finished-at="2020-03-21T02:07:35 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

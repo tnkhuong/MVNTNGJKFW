@@ -14,13 +14,7 @@ import Titan.DealerAppraisalPT.pageObjectModel.TellUsAboutYourSelfPage;
 
 public class TellUsAboutYourSelf extends Init{
   @Test
-  public void f() throws Exception {
-	  
-	  WebDriver driver = Init.setup(GlobalVariables.glb_Browser);
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	  
-	  driver.get("https://www.utest.com/signup/personal");
-	  driver.manage().window().maximize();
-	  
+  public void f() throws Exception {	  
 	  TellUsAboutYourSelfPage tellusaboutyourself = new TellUsAboutYourSelfPage(driver); 	  
 	  tellusaboutyourself.submitStep1Successfully("Khuong", "Truong", "truongnguyen.khuong@gmail.com", "July", 
       	  										"27", "1981", "Male", "Vietnamese");
@@ -29,11 +23,15 @@ public class TellUsAboutYourSelf extends Init{
 	  }
   
   @BeforeTest
-  public void beforeTest() {	  
+  public void beforeTest() throws Exception {
+	  WebDriver driver = Init.setup(GlobalVariables.glb_Browser);
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	  
+	  driver.get("https://www.utest.com/signup/personal");
+	  driver.manage().window().maximize();
   }
 
   @AfterTest
   public void afterTest() {
-	  //driver.quit();
+	  driver.quit();
   }
 }
