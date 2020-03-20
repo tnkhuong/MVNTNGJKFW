@@ -15,7 +15,7 @@ public class TellUsAboutYourSelf extends Init{
   @Test
   public void f() throws Exception {
 	  
-	  WebDriver driver = Init.setup("chrome");
+	  WebDriver driver = Init.setup("firefox");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	  
 	  driver.get("https://www.utest.com/signup/personal");
 	  driver.manage().window().maximize();
