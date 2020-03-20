@@ -6,5 +6,5 @@ public class GlobalVariables {
 	public static String glb_FF_DriverPath = ".\\src\\resources\\browserdriver\\geckodriver.exe";	
 	public static int DEFAULT_WAIT_4_PAGE = 50;
 	public static int DEFAULT_WAIT_4_CONTROL = 20;
-	public static String glb_Browser="chrome";
+	public static String glb_Browser="firefox";
 }

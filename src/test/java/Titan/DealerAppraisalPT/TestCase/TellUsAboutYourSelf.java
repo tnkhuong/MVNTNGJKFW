@@ -34,6 +34,6 @@ public class TellUsAboutYourSelf extends Init{
 
   @AfterTest
   public void afterTest() {
-	  driver.quit();
+	  //driver.quit();
   }
 }
