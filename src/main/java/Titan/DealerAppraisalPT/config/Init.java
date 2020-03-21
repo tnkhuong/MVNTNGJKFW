@@ -10,6 +10,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class Init {
 	public static WebDriver driver;
 	public static WebDriver setup(String browser) throws Exception{
+		
+		
+		String os = System.getProperty("os.name").toLowerCase();
+		System.out.println(os);
+		
+		
        //Check if parameter passed from TestNG is 'firefox'
         if(browser.equalsIgnoreCase("firefox")){
           System.setProperty("webdriver.gecko.driver",GlobalVariables.glb_FF_DriverPath);	
@@ -21,7 +27,14 @@ public class Init {
         //Check if parameter passed as 'chrome'
         else if(browser.equalsIgnoreCase("chrome")){
             //set path to chromedriver.exe You may need to download it from http://code.google.com/p/selenium/wiki/ChromeDriver
-            System.setProperty("webdriver.chrome.driver",GlobalVariables.glb_CHR_DriverPath);
+            if (os.contains("mac"))
+       		{
+            	System.setProperty("webdriver.chrome.driver",GlobalVariables.glb_CHR_DriverPath_mac);
+            }
+            else
+            {
+            	System.setProperty("webdriver.chrome.driver",GlobalVariables.glb_CHR_DriverPath);
+            }
             //create chrome instance
             driver = new ChromeDriver();
         }
