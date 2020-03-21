@@ -13,6 +13,8 @@ import Titan.DealerAppraisalPT.config.Init;
 import Titan.DealerAppraisalPT.pageObjectModel.TellUsAboutYourSelfPage;
 
 public class TellUsAboutYourSelf extends Init{
+  
+   
   @Test
   public void f() throws Exception {	  
 	  TellUsAboutYourSelfPage tellusaboutyourself = new TellUsAboutYourSelfPage(driver); 	  
@@ -24,6 +26,7 @@ public class TellUsAboutYourSelf extends Init{
   
   @BeforeTest
   public void beforeTest() throws Exception {
+	  
 	  WebDriver driver = Init.setup(GlobalVariables.glb_Browser);
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	  
 	  driver.get("https://www.utest.com/signup/personal");
